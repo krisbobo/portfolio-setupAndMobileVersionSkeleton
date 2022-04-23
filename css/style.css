@@ -18,6 +18,15 @@ ul {
   justify-content: center;
 }
 
+.social-handle {
+  flex-direction: row;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0;
+  position: relative;
+  top: 30px;
+}
+
 #greeting {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -54,11 +63,8 @@ p {
   top: 50px;
 }
 
-div ul {
+.lang-box{
   display: flex;
-  align-items: baseline;
-  position: relative;
-  top: 65px;
 }
 
 header {
@@ -90,4 +96,115 @@ header nav ul {
   text-align: center;
   position: relative;
   top: 90px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+}
+
+.work {
+  background: #fff;
+  border: 1px solid #D0D9D4;
+  border-radius: 8px;
+  margin: 0 26px 26px 26px;
+}
+
+.work > img {
+  width: 100%;
+}
+
+.title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.work-button {
+  position: static;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+  justify-content: center;
+
+}
+
+.work-button > button {
+  background: #36B37F;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  width: 122px;
+  height: 48px;
+  border: 0;
+  margin-bottom: 24px;
+}
+
+.lang-box{
+  justify-content: space-around;
+  gap:2px;
+}
+
+.lang-box > li {
+  background-color: #EBF0EE;
+  padding: 8px 12px;
+  height: fit-content;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3A4A42;
+}
+
+.heading {
+  margin-bottom: 111px;
+  margin-top: 60px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #172B4D;
+}
+
+.line-wrapper > span {
+  width: 48px;
+  height: 4px;
+  background-color: green;
+  border-radius: 8px;
+  margin-bottom: 80px;
+}
+
+.line-wrapper {
+  display: flex;
+  justify-content: center;
 }
