@@ -7,13 +7,8 @@ body {
   margin: auto;
 }
 
-.image {
-  background-image: url("./image/header-illsutration-mobile@2x.png");
-  position: absolute;
-  display: inline-block;
-  padding: auto;
-  margin: auto;
-  overflow: hidden;
+.header-wrapper {
+  background-image: url('../images/header-illsutration-mobile@2x.png');
 }
 
 ul {
@@ -35,7 +30,7 @@ ul {
   top: 50px;
 }
 
-h1 {
+h2 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -62,12 +57,33 @@ p {
 div ul {
   display: flex;
   align-items: baseline;
+  position: relative;
+  top: 65px;
+}
+
+header {
+  height: 50px;
+}
+
+#logo h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#menu a {
+  display: flex;
+  align-items: center;
 }
 
 header nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 30px;
+  position: relative;
+  bottom: 40px;
+  margin-top: 45px;
 }
 
 .button {
