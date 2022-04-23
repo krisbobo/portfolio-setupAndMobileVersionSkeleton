@@ -182,6 +182,13 @@ header nav ul {
   color: #3A4A42;
 }
 
+.lang-box.about > li {
+  background-color: #fff;
+  color: #36B37E;
+  justify-content: space-around;
+  gap:2px;
+}
+
 .heading {
   margin-bottom: 111px;
   margin-top: 60px;
@@ -207,4 +214,76 @@ header nav ul {
 .line-wrapper {
   display: flex;
   justify-content: center;
+}
+
+#about-placeholder {
+  background-color: #dedede;
+  margin: 24px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #EBF0EE;
+  border: 1px solid #C1C7D0;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.prog-lang {
+  margin: 0 auto;
+  display: flex;
+}
+
+.lang-text {
+  position: static;
+  width: 337px;
+  height: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+}
+
+.about-me-button {
+  background-image: url(../images/illustration\ 2-about\ me\ mobile.png);
+  height: 100px;
+  background-repeat: no-repeat;
+  display: block;
+
+}
+
+.heading-with-bg {
+  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\).png);
+  height: 100px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position-x: right;
+}
+  
+.resume-button {
+  margin: 84px auto;
+  display: flex;
+  width: 159px;
+  height: 48px;
+  left: 96px;
+  top: 285px;
+  background: #36B37F;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526E;
 }
