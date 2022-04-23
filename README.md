@@ -1,56 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio setup and mobile version skeleton
 
-> Description the project.
+> In this project I built the header and headline sections of a mobile version of a portfolio.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML and CSS
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+![Image](https://github.com/krisbobo/portfolio-setupAndMobileVersionSkeleton/blob/sections/portfolio.png)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy up and running, follow these simple example steps.
 
+## Prerequisites
 
-To get a local copy up and running follow these simple example steps.
+Before attempting to get a copy of this, you should know(have) how to do the following:
 
-### Prerequisites
+- How to use the command line interface(CLI)
 
-### Setup
+- Know how to navigate directories or folders at the CLI.
 
-### Install
+- Know how to get the URL(https/ssh) of a repository on GitHub.
 
-### Usage
+- You should have a code editor installed, preferably VsCode.
 
-### Run tests
+## Setup
 
-### Deployment
+- In desired folder or directory in the CLI, run the command:
 
+>                   git clone (https/ssh)URL
 
+-Navigate into the cloned folder or repository by running the command:
+
+>                   cd <folder/name of the repository>
+
+- If VsCode is your default code editor, run:
+
+>                   code .
+
+- You are all setup!
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [krisbobo](https://github.com/krisbobo)
+- Twitter: [ChrisboboSys](https://twitter.com/ChrisboboSys)
+- LinkedIn: [kiyong-christian](https://linkedin.com/in/kiyong-christian)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
