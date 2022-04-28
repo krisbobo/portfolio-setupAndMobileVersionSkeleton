@@ -132,7 +132,7 @@ header {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 105%;
+  grid-template-columns: 100%;
   grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
 }
 
@@ -207,7 +207,7 @@ header {
 }
 
 .heading-with-bg {
-  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\) .png);
+  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\).png);
   height: 110px;
   background-repeat: no-repeat;
   display: block;
