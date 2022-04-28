@@ -78,7 +78,7 @@ header {
   position: relative;
   top: 50px;
 }
-  
+
 .social-handle {
   flex-direction: row;
   display: flex;
@@ -216,7 +216,7 @@ header {
 }
 
 .heading-with-bg {
-  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\).png);
+  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\) .png);
   height: 110px;
   background-repeat: no-repeat;
   display: block;
