@@ -206,6 +206,15 @@ header {
   margin-bottom: 24px;
 }
 
+.work-button > button:hover {
+  background-color: #36b37e;
+  opacity: 0.6;
+}
+
+.work-button > button:focus {
+  background-color: green;
+}
+
 .heading-with-bg {
   background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\).png);
   height: 110px;
@@ -256,6 +265,15 @@ p {
   font-size: 17px;
   line-height: 24px;
   margin-top: -50px;
+}
+
+.resume-button:hover {
+  background-color: #36b37e;
+  opacity: 0.6;
+}
+
+.resume-button:focus {
+  background-color: #008000;
 }
 
 .about-me-button {
