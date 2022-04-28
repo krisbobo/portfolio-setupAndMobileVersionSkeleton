@@ -112,6 +112,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 10px;
   color: #172b4d;
 }
 
@@ -136,6 +137,12 @@ header {
   grid-template-rows: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
 }
 
+.grid-container-about {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat (3, 1fr);
+}
+
 .title {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -145,6 +152,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .work > img {
@@ -208,7 +216,7 @@ header {
 
 .work-button > button:hover {
   background-color: #36b37e;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .work-button > button:focus {
@@ -269,7 +277,7 @@ p {
 
 .resume-button:hover {
   background-color: #36b37e;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .resume-button:focus {
