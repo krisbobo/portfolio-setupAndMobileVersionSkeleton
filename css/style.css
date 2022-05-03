@@ -345,16 +345,37 @@ p {
 }
 
 .contact-description {
-  display: flex;
-  font-family: 'Inter';
-  font-style: normal;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 40px;
-  line-height: 52px;
   text-align: center;
-  color: #172B4D;
-  margin: 40px auto;
-  padding: 0px 15px;
+  margin: 50px;
+  color: #42526e;
+  position: relative;
+  top: -30px;
 }
 
+.form {
+  padding: 0px 20px;
+}
 
+.form-input {
+  width: 90%;
+  padding: 10px 10px;
+  background: #FFFFFF;
+  border: 1px solid #D0D9D4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px 20px;
+}
+
+.contact-button {
+  padding: 15px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-left: 35%;
+  background-color: #36B37F;
+  border-radius: 4px;
+}
