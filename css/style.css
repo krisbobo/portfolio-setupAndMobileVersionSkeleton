@@ -379,3 +379,12 @@ p {
   background-color: #36B37F;
   border-radius: 4px;
 }
+
+.contact-button:hover {
+  background-color: #36b37e;
+  opacity: 0.9; 
+}
+
+.contact-button:focus {
+  background-color: #008000;
+}
