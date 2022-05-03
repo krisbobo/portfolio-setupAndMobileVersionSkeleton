@@ -357,14 +357,14 @@ p {
 }
 
 .form {
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .form-input {
   width: 90%;
   padding: 10px 10px;
-  background: #FFFFFF;
-  border: 1px solid #D0D9D4;
+  background: #fff;
+  border: 1px solid #d0d9d4;
   box-sizing: border-box;
   border-radius: 4px;
   margin: 10px 20px;
@@ -376,13 +376,13 @@ p {
   border: none;
   margin-top: 10px;
   margin-left: 35%;
-  background-color: #36B37F;
+  background-color: #36b37f;
   border-radius: 4px;
 }
 
 .contact-button:hover {
   background-color: #36b37e;
-  opacity: 0.9; 
+  opacity: 0.9;
 }
 
 .contact-button:focus {
@@ -390,12 +390,12 @@ p {
 }
 
 .contact-email {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: #42526E;
+  color: #42526e;
   margin-top: 65px;
 }
 
