@@ -344,16 +344,17 @@ p {
   gap: 2px;
 }
 
-.contact-description{
-display: flex;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-text-align: center;
-color: #172B4D;
-margin: 40px auto;
-padding: 0px 15px;
+.contact-description {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172B4D;
+  margin: 40px auto;
+  padding: 0px 15px;
 }
+
 
