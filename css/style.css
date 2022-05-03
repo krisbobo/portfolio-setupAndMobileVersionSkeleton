@@ -388,3 +388,19 @@ p {
 .contact-button:focus {
   background-color: #008000;
 }
+
+.contact-email {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #42526E;
+  margin-top: 65px;
+}
+
+.contact-img {
+  position: absolute;
+  left: 336px;
+  top: 6455px;
+}
