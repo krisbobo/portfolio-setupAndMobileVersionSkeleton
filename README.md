@@ -47,13 +47,16 @@ Before attempting to get a copy of this, you should know(have) how to do the fol
 
 ## Authors
 
-👤 **Author**
+👤 **Author1**
 
 - GitHub: [krisbobo](https://github.com/krisbobo)
 - Twitter: [ChrisboboSys](https://twitter.com/ChrisboboSys)
 - LinkedIn: [kiyong-christian](https://linkedin.com/in/kiyong-christian)
 
+👤 **Author2**
 
+GitHub: Ashe546@githubhandle
+Twitter: Ashe213@twitterhandle
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

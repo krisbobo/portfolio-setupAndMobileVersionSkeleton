@@ -343,3 +343,70 @@ p {
   justify-content: space-around;
   gap: 2px;
 }
+
+.contact-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  color: #42526e;
+  position: relative;
+  top: -30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 90%;
+  padding: 10px 10px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px 20px;
+}
+
+.contact-button {
+  padding: 12px 12px 12px 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-left: 35%;
+  background-color: #36b37f;
+  border-radius: 4px;
+}
+
+.contact-button:hover {
+  background-color: #36b37e;
+  opacity: 0.9;
+}
+
+.contact-button:focus {
+  background-color: #008000;
+}
+
+.contact-email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 65px;
+}
+
+.contact-img {
+  position: absolute;
+  left: 336px;
+  top: 6455px;
+}
