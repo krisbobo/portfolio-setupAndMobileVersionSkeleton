@@ -371,7 +371,12 @@ p {
 }
 
 .contact-button {
-  padding: 15px;
+  padding: 12px 12px 12px 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   color: white;
   border: none;
   margin-top: 10px;
