@@ -342,6 +342,10 @@ p {
   top: 20px;
 }
 
+.prog-lang:hover {
+  transform: scale(0.7);
+}
+
 .lang-text {
   position: static;
   height: 32px;
