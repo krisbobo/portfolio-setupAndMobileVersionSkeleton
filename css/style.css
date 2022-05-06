@@ -383,6 +383,11 @@ p {
   gap: 2px;
 }
 
+.lang-box li:hover {
+  background-color: #000000;
+  color: #fff ;
+}
+
 .contact-description {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
