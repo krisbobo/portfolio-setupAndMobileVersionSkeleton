@@ -94,6 +94,24 @@ header {
   top: 90px;
 }
 
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .work {
   background: #fff;
   border: 1px solid #d0d9d4;
@@ -255,6 +273,23 @@ p {
   top: -30px;
 }
 
+.animate-para {
+    animation-duration: 3s;
+    animation-name: slidein;  
+}
+
+@keyframes slidein {
+  from {
+      margin-left: 100%;
+      width: 300%;
+}
+
+  to {
+      margin-left: 0%;
+      width: 100%;
+}
+}
+  
 .resume-button {
   margin: 84px auto;
   display: flex;
@@ -325,6 +360,10 @@ p {
   top: 20px;
 }
 
+.prog-lang:hover {
+  transform: scale(0.7);
+}
+
 .lang-text {
   position: static;
   height: 32px;
@@ -342,6 +381,11 @@ p {
   color: #36b37e;
   justify-content: space-around;
   gap: 2px;
+}
+
+.lang-box li:hover {
+  background-color: #000000;
+  color: #fff ;
 }
 
 .contact-description {
