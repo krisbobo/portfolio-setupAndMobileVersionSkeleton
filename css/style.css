@@ -149,14 +149,15 @@ header {
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   padding: 10px;
 }
 
 .work > img {
   width: 100%;
+}
+
+.work {
+  text-align: center;
 }
 
 .lang-box {
@@ -224,7 +225,7 @@ header {
 }
 
 .heading-with-bg {
-  background-image: url(../images/illustration\ 1-\ about\ me-mobile\(1\) .png);
+  background-image: url(../images/illustration-1-about-me-mobile1.png);
   height: 110px;
   background-repeat: no-repeat;
   display: block;
@@ -458,7 +459,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 10px;
-  height: 1000px;
+  height: 1434.3px;
   background: url(../images/Header-llustration-desktop.svg);  
   background-size: auto;
   background-clip: border-box;
@@ -486,7 +487,7 @@ body {
   color: #344563;
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   margin-top: 12px;
 }
@@ -546,23 +547,79 @@ header {
   align-items: baseline;
 }
 
-.scolldown {
+.scrolldown {
   margin-top: 15%;
   background-color: transparent;
   border: none;
 }
 
+.works {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  width: 65%;
+  margin: 24px 0px;
+}
+
+.work-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
 .grid-container {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "work work work" "work work work" "work work work";
+  grid-gap: 1%;
+  margin-top: 0;
+  padding: 4%;
 }
 
-.grid-container-about {
-  display: grid;
-  grid-template-rows: 100%;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+.title {
+  font-family: 'Inter', sans-serif;
+  color: #172b4d;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
+
+.lang-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 4%;
+  padding: 0;
+}
+
+.lang-box > li {
+  text-align: center;
+  list-style: none;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  padding: 3%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.heading-with-bg {
+  background-image: url(../images/Group.png);
+  height: 110px;
+  background-repeat: no-repeat;
+  display: block;
+  background-position-x: right;
 }
 
 }
