@@ -420,14 +420,18 @@ p {
     display: none;
   }
   
-  .desktop-headline{
+  .desktop-headline {
     display: none;
   }
-  
+
 }
 
 @media only screen and (min-width: 768px) {
 #logo, #menu {
+  display: none;
+}
+
+.contact-img {
   display: none;
 }
 
@@ -443,6 +447,9 @@ p {
   display: none;
 }
 
+.contact-email {
+  display: none;
+}
 body {
   padding: 0;
   margin: 0;
@@ -684,7 +691,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 4%;
-  width: 125rem;
+  width: 120rem;
   height: 100%;
   padding: 4%;
 }
@@ -756,8 +763,94 @@ header {
   gap: 2px;
 }
 
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  padding: 4%;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+  background: url(../images/illustration-1-contact-form-desktop.svg) no-repeat, url(../images/illustration-2-contact-form-desktop@2x.png) no-repeat, url(../images/contact\ form-illustratoin-3-desktop.png) no-repeat;
+  background-position: 0% 150%, 22% 90%, 100% 90%;
+  background-size: 13%, 9%, 13%;
+  box-sizing: border-box;
+  position: relative;
+  top: -60px;
+}
+
+.contact-description {
+  width: 46%;
+  text-align: left;
+  margin-left: 3rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.form {
+  position: relative;
+  top: -105px;
+}
 
 
+form ul {
+  margin: 0;
+  padding: 0;
+}
 
+.form-input {
+  width: 895px;
+}
 
+.form-input textarea {
+  width: 1000px;
+  padding: 10px 10px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px 20px;
+  height: 48px;
+}
+
+.contact-button {
+  padding: 12px 12px 12px 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  margin-left: 0;
+  background-color: #36b37f;
+  border-radius: 4px;
+  align-items: flex-start;
+  position: relative;
+  left: -385px;
+}
+
+.contact-email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #42526e;
+  margin-top: 65px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  width: 100%;
+  height: 8%;
+  border-top: 1px solid #dfe1e6;
+}
+
+footer .social-handle {
+ margin: 0 45%;
+}
 }
