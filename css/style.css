@@ -503,8 +503,8 @@ header {
 #greet {
   font-style: normal;
   font-weight: 800;
-  font-size: 32px;
-  line-height: 20px;
+  font-size: 3rem;
+  line-height: 3.75rem;
   margin-top: 100px;
   margin-bottom: -5px;
   color: #172b4d;
@@ -614,12 +614,150 @@ header {
   font-size: 15px;
 }
 
+.about-myself {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .heading-with-bg {
   background-image: url(../images/Group.png);
-  height: 110px;
+  width: 100%;
+  height: 15.25rem;
   background-repeat: no-repeat;
-  display: block;
   background-position-x: right;
 }
+
+.about-me-heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #172b4d;
+  margin-bottom: 24px;
+}
+
+.about-myself p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  width: 46%;
+  text-align: center;
+  color: #42526e;
+  margin-bottom: 24px;
+  position: relative;
+  top: -120px;
+}
+
+.about-me-button {
+  background-image: url(../images/illustration-about-me-2-desktop.png);
+  width: 100%;
+  height: 8.125rem;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+.resume-button {
+  margin: 84px auto;
+  display: flex;
+  width: 159px;
+  height: 48px;
+  left: 0px;
+  top: 105px;
+  background: #36b37f;
+  border-radius: 4px;
+  border: 0;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: -50px;
+  position: relative;
+}
+
+
+.grid-container-about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 4%;
+  width: 125rem;
+  height: 100%;
+  padding: 4%;
+}
+
+#about-placeholder1 {
+  background-color: #EBF0EE;
+  margin: 24px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  height: 90%;
+}
+
+#about-placeholder2 {
+  background-color: #EBF0EE;
+  margin: 24px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  height: 90%;
+}
+
+#about-placeholder3 {
+  background-color: #EBF0EE;
+  margin: 24px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #c1c7d0;
+  box-sizing: border-box;
+  height: 90%;
+}
+
+
+.prog-lang {
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  top: 60px;
+}
+
+.lang-text {
+  position: relative;
+  height: 240px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #344563;
+  top: 135px;
+}
+
+.lang-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 4%;
+  padding: 0;
+  position: relative;
+  top: -35px;
+}
+
+.lang-box.about > li {
+  background-color: #fff;
+  color: #36b37e;
+  justify-content: space-around;
+  gap: 2px;
+}
+
+
+
+
 
 }
