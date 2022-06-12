@@ -625,6 +625,7 @@ p {
     font-size: 40px;
     width: 65%;
     margin: 24px 0;
+    position: static;
   }
 
   .work-title {
