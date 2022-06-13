@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   display: inline-block;
   flex-direction: column;
-  margin: 0px;
+  margin: 0;
 }
 
 .header-wrapper {
@@ -544,7 +544,7 @@ p {
   }
 
   header {
-    height: 0px;
+    height: 0;
   }
 
   .desktop-headline {
@@ -566,7 +566,7 @@ p {
     font-size: 32px;
     line-height: 20px;
     color: #36b37e;
-    margin: 0px;
+    margin: 0;
     position: static;
   }
 
@@ -741,16 +741,14 @@ p {
   .grid-container-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 4%;
     width: 95%;
     padding: 2%;
-    margin: 25px;
     margin-bottom: 100px;
   }
 
   #about-placeholder1 {
     background-color: #ebf0ee;
-    padding: 0px;
+    padding: 0;
     border-radius: 8px;
     border: 2px solid #c1c7d0;
     box-sizing: border-box;
@@ -759,7 +757,7 @@ p {
 
   #about-placeholder2 {
     background-color: #ebf0ee;
-    padding: 0px;
+    padding: 0;
     border-radius: 8px;
     border: 2px solid #c1c7d0;
     box-sizing: border-box;
@@ -768,7 +766,7 @@ p {
 
   #about-placeholder3 {
     background-color: #ebf0ee;
-    padding: 0px;
+    padding: 0;
     border-radius: 8px;
     border: 2px solid #c1c7d0;
     box-sizing: border-box;
@@ -825,7 +823,6 @@ p {
 
   .form {
     position: static;
-    
   }
 
   form ul {
