@@ -4,7 +4,7 @@ body {
   background-color: #fff;
   display: inline-block;
   flex-direction: column;
-  margin: auto;
+  margin: 0;
 }
 
 .header-wrapper {
@@ -120,7 +120,7 @@ header {
 
 .work {
   background: #fff;
-  border: 1px solid #d0d9d4;
+  border: 2px solid #d0d9d4;
   border-radius: 8px;
   margin: 0 26px 26px 26px;
   text-align: center;
@@ -233,7 +233,7 @@ header {
   width: 122px;
   height: 48px;
   border: 0;
-  margin-bottom: 24px;
+  margin-bottom: 30px;
 }
 
 .work-button > button:hover {
@@ -517,25 +517,19 @@ p {
   .desktop-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
-    height: 1434.3px;
     background: url(../images/Header-llustration-desktop.svg);
     background-clip: border-box;
     background-repeat: no-repeat;
+    background-position-y: 0%;
     background-size: 100%;
-    position: relative;
-    bottom: 80px;
+    margin-bottom: 100px;
   }
 
   .desktop-menu {
     padding: 0;
-    margin: 0;
+    margin: -25px;
     display: flex;
     justify-content: center;
-    margin-top: 26px;
-    gap: 20px;
   }
 
   .desktop-menu .desktop-nav {
@@ -550,11 +544,11 @@ p {
   }
 
   header {
-    height: 50px;
+    height: 0;
   }
 
   .desktop-headline {
-    margin-top: 70px;
+    margin-top: 155px;
   }
 
   #greet {
@@ -563,7 +557,6 @@ p {
     font-size: 3rem;
     line-height: 3.75rem;
     margin-top: 100px;
-    margin-bottom: -5px;
     color: #172b4d;
   }
 
@@ -573,6 +566,8 @@ p {
     font-size: 32px;
     line-height: 20px;
     color: #36b37e;
+    margin: 0;
+    position: static;
   }
 
   #explanation {
@@ -583,6 +578,7 @@ p {
     font-size: 20px;
     line-height: 32px;
     text-align: center;
+    margin-bottom: 75px;
   }
 
   .social-connect {
@@ -591,8 +587,7 @@ p {
     justify-content: center;
     align-items: baseline;
     margin-bottom: 0;
-    position: relative;
-    top: -50px;
+    position: static;
   }
 
   .social {
@@ -604,14 +599,15 @@ p {
   }
 
   .scrolldown {
-    margin-top: 15%;
     background-color: transparent;
     border: none;
+    margin-bottom: 200px;
   }
 
   .works {
-    width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
@@ -623,9 +619,17 @@ p {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    width: 65%;
-    margin: 24px 0;
+    width: 100%;
+    margin: -90px 0;
     position: static;
+  }
+
+  .work {
+    background: #fff;
+    border: 2px solid #d0d9d4;
+    border-radius: 8px;
+    margin: 20px 26px 26px 26px;
+    text-align: center;
   }
 
   .work-title {
@@ -638,10 +642,8 @@ p {
   .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "work work work" "work work work" "work work work";
-    grid-gap: 1%;
-    margin-top: 0;
-    padding: 4%;
+    grid-template-rows: none;
+    width: 100%;
   }
 
   .title {
@@ -650,16 +652,14 @@ p {
     font-weight: 600;
     font-size: 24px;
     text-align: center;
-    padding: 10px;
+    padding: 30px;
   }
 
   .lang-box {
     display: flex;
     justify-content: space-around;
-    gap: 4%;
     padding: 0;
-    position: relative;
-    top: -35px;
+    position: static;
   }
 
   .lang-box > li {
@@ -741,38 +741,34 @@ p {
   .grid-container-about {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 4%;
-    width: 120rem;
-    height: 100%;
-    padding: 4%;
+    width: 95%;
+    padding: 2%;
+    margin-bottom: 100px;
   }
 
   #about-placeholder1 {
     background-color: #ebf0ee;
-    margin: 24px;
-    padding: 12px;
+    padding: 0;
     border-radius: 8px;
-    border: 1px solid #c1c7d0;
+    border: 2px solid #c1c7d0;
     box-sizing: border-box;
     height: 90%;
   }
 
   #about-placeholder2 {
     background-color: #ebf0ee;
-    margin: 24px;
-    padding: 12px;
+    padding: 0;
     border-radius: 8px;
-    border: 1px solid #c1c7d0;
+    border: 2px solid #c1c7d0;
     box-sizing: border-box;
     height: 90%;
   }
 
   #about-placeholder3 {
     background-color: #ebf0ee;
-    margin: 24px;
-    padding: 12px;
+    padding: 0;
     border-radius: 8px;
-    border: 1px solid #c1c7d0;
+    border: 2px solid #c1c7d0;
     box-sizing: border-box;
     height: 90%;
   }
@@ -780,13 +776,11 @@ p {
   .prog-lang {
     margin: 0 auto;
     display: flex;
-    position: relative;
-    top: 60px;
+    position: static;
   }
 
   .lang-text {
-    position: relative;
-    height: 240px;
+    position: static;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -794,7 +788,6 @@ p {
     line-height: 32px;
     text-align: center;
     color: #344563;
-    top: 135px;
   }
 
   .lang-box.about > li {
@@ -807,16 +800,16 @@ p {
   .contact-me {
     display: flex;
     flex-direction: row;
-    padding: 4%;
+    padding: 1%;
     align-items: flex-start;
     height: 100%;
     width: 100%;
     background: url(../images/illustration-1-contact-form-desktop.svg) no-repeat, url(../images/illustration-2-contact-form-desktop@2x.png) no-repeat, url(../images/contact\ form-illustratoin-3-desktop.png) no-repeat;
     background-position: 0% 150%, 22% 90%, 100% 90%;
-    background-size: 13%, 9%, 13%;
+    background-size: 12%, 9%, 11%;
     box-sizing: border-box;
-    position: relative;
-    top: -60px;
+    position: static;
+    margin-bottom: 30px;
   }
 
   .contact-description {
@@ -829,8 +822,7 @@ p {
   }
 
   .form {
-    position: relative;
-    top: -105px;
+    position: static;
   }
 
   form ul {
@@ -839,18 +831,17 @@ p {
   }
 
   .form-input {
-    width: 895px;
+    width: 149%;
   }
 
   .form-input textarea {
-    width: 1000px;
-    padding: 10px 10px;
+    width: 100%;
     background: #fff;
     border: 1px solid #d0d9d4;
     box-sizing: border-box;
     border-radius: 4px;
     margin: 10px 20px;
-    height: 48px;
+    height: 50px;
   }
 
   .contact-button {
@@ -867,8 +858,7 @@ p {
     background-color: #36b37f;
     border-radius: 4px;
     align-items: flex-start;
-    position: relative;
-    left: -385px;
+    position: static;
   }
 
   footer {
